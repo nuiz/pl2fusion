@@ -1,0 +1,30 @@
+.bg-full {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bg-full .text {
+    position: absolute;
+}
+
+/******************************************************* scale *********************************************************/
+@media (max-width: 969px) {
+}
+
+
+
+
+
+
+
+
+/******************************************************* scale *********************************************************/
+@media (max-width: 479px) {
+    .container {
+        width: 320px;
+    }
+    .bg-full {
+        background-size: 640px auto;
+    }
+}
